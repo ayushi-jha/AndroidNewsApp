@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="220dp"
+    android:layout_width="match_parent"
+    android:id="@+id/card_view_news"
+    android:layout_marginBottom="3dp"
+    android:layout_marginTop="3dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:scaleType="centerCrop"
+    card_view:cardCornerRadius="10dp"
+    card_view:cardElevation="0dp"
+    >
+    <RelativeLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:id="@+id/image_news"
+        android:layout_marginTop="0dp"
+        android:layout_alignParentTop="true"
+        android:padding="0dp" />
+    <TextView
+        android:id="@+id/info_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:scrollHorizontally="true"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:layout_below="@+id/image_news"/>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="3dp">
+        <TextView
+            android:id="@+id/latest_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/latest_news_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/latest_date" />
+        <ImageButton
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:drawableTop="@drawable/icon_bookmark_border"
+            android:id="@+id/image_button_adapter"
+            android:layout_alignParentEnd="true"
+            />
+    </RelativeLayout>
+</RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.notifications.NotificationsFragment">
+    <TextView
+        android:id="@+id/text_search_chart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/EnterChartTerm"
+        android:textColor="@android:color/black"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/search_chart_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:layout_marginTop="5dp"
+        android:imeOptions="actionSend"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:layout_marginBottom="25dp"
+        android:backgroundTint="#673AB7"
+        android:hint="@string/Coronavirus"/>
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/lineChart"
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        />
+</LinearLayout>

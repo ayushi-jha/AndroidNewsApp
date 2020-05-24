@@ -1,0 +1,18 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle">@style/MyActionBarTheme</item>
+        <item name="android:windowBackground">#F6F6F6</item>
+    </style>
+    <style name="MyActionBarTheme" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#F6F6F6</item>
+    </style>
+    <style name="AppTheme.Launcher">
+        <item name="android:windowBackground">@drawable/launch_screen</item>
+    <!-- Optional, on Android 5+ you can modify the colorPrimaryDark color to match the windowBackground color for further branding-->
+    <!-- <item name="colorPrimaryDark">@android:color/white</item> -->
+    </style>
+
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E1DFE4</color>
+    <color name="colorPrimaryDark">@android:color/tertiary_text_dark</color>
+    <color name="colorAccent">@android:color/black</color>
+    <color name="my_purple">#673AB7</color>
+</resources>

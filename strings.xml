@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="FN">Fetching News</string>
+    <string name="ok">OK</string>
+    <string name="title_location_permission">LOCATION PERMISSION</string>
+    <string name="text_location_permission">Please provide location permission</string>
+    <string name="Coronavirus">CoronaVirus</string>
+    <string name="EnterChartTerm">Enter Search Term :</string>
+    <string name="NoBookmark">No Bookmarked Articles</string>
+    <string name="search">Search</string>
+    <string name="Headlines">Headlines</string>
+    <string name="Trending">Trending</string>
+    <string name="Bookmarks">Bookmarks</string>
+</resources>
